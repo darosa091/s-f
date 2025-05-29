@@ -1,0 +1,467 @@
+body{
+    background-color: white;
+    
+    
+}
+
+*,
+*::before
+*::after{
+    margin: 0%;
+}
+
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(image/sfev.jpeg);
+    margin-top: 0%;
+    border-radius: 10px;
+    
+}
+
+.container{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    
+    border-radius: 40px;
+    
+    
+}
+
+.logo-header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    color: rgb(11, 2, 128);
+}
+
+.nav-list{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a{
+    color: white;
+    margin-right: 10pX;
+    font-size:x-small ;
+}
+
+
+.hh1{
+    margin-left: 38%;
+    margin-top: 5%;
+}
+
+.th1l{
+    width: 20px;
+    height: 10px;
+    background-color: blue;
+    margin-bottom: 0%;
+    
+}
+
+h1{
+    font-size: 20px;
+    font-style: italic;
+    color: red;
+}
+
+.hh2{
+    margin-left: 47%;
+    
+
+}
+
+h2{
+    font-size: 18px;
+    font-style: italic;
+    margin-top: -3%;
+    color: red;
+}
+
+.tth1l{
+    width: 100px;
+    height: 10px;
+    background-color: blue;
+}
+
+
+.sf{
+    width: 45%;
+    height:450px;
+    background-image: url(image/s&f.jpeg);
+    border-radius: 50px;
+    margin-left: 27%;
+    margin-top: 10%;
+    background-repeat: repeat-x;
+    background-position: center;
+}
+
+
+
+
+.animated-text{
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 15%;
+}
+
+.text{
+    animation: animate-text 5s infinite;
+}
+
+@keyframes animate-text{
+    0%{
+        transform: scale(1);
+        color: rgb(6, 6, 36);
+
+    }
+    50%{
+        transform: scale(1.2);
+        color: white;
+    }
+    100%{
+        transform: scale(1);
+        color: rgb(5, 5, 36);
+    }
+}
+
+
+
+.animated{
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 58%;
+}
+
+.f{
+    animation: animate-text 5s infinite;
+}
+
+@keyframes animate-text{
+    0%{
+        transform: scale(1);
+        color: gold;
+
+    }
+    50%{
+        transform: scale(1.2);
+        color: black;
+    }
+    100%{
+        transform: scale(1);
+        color: white;
+    }
+}
+
+
+h3{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+    justify-content: space-between;
+    padding-top: 5%;
+    color: black;
+
+}
+
+.cartoon{
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+
+.hth{
+    width: 70%;
+    height: 370px;
+    background-color: whitesmoke;
+    font-style: italic;
+    margin-left: 16%;
+    border-radius: 15px;
+    margin-top: -50%;
+    
+}
+
+
+
+.evg{
+    width: 35%;
+    height: 350px;
+    background-image: url(image/sfev.jpeg);
+    border-radius: 50px;
+    margin-left: 33%;
+    margin-top: 8%;
+    background-position: center;
+    background-repeat: repeat-x;
+}
+
+
+.ani{
+    font-size: 12px;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+    font-style: italic;
+    
+
+}
+
+.an{
+    animation: animate-text 5s infinite;
+    
+}
+
+@keyframes animate-text{
+    0%{
+        transform: scale(1);
+        color: gold;
+
+    }
+    50%{
+        transform: scale(1.2);
+        color: black;
+    }
+    100%{
+        transform: scale(1);
+        color: white;
+    }
+}
+
+.sp{
+    text-align: center;
+    color: red;
+    font-weight: bolder;
+    margin-top: 45%;
+    font-size: larger;
+}
+
+
+h4{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 5%;
+}
+
+.g1{
+    font-size: larger;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.g2{
+    font-size: larger;
+    text-align: center;
+}
+
+.g3{
+    font-size: larger;
+    text-align: center;
+}
+
+.guess-what{
+    font-size: larger;
+    text-align: center;
+    margin-top: 5%;
+    color: red;
+}
+
+.free{
+    text-align: center;
+    font-size: larger;
+}
+
+.cal{
+    font-size: larger;
+    text-align: center;
+}
+
+.logistics{
+    font-size: larger;
+    text-align: center;
+}
+
+.invite{
+    font-size: larger;
+    text-align: center;
+}
+
+.h4{
+    color: red;
+}
+
+
+.rhoda{
+    width: 40%;
+    height: 350px;
+    background-image: url(image/rhoda.jpeg);
+    background-position: center;
+    margin-left: 30%;
+    border-radius: 25px;
+    background-repeat: repeat-x;
+    
+}
+h5{
+    color: black;
+    padding-top: 60%;
+    padding-left: 14%;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+.ken-burns {
+    animation: kenBurns 10s infinite;
+    width: 40%;
+    height: 30vh;
+    margin-left: 30%;
+    object-fit: cover;
+  }
+  
+  @keyframes kenBurns {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+
+
+  .gve{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    color: blue;
+    padding-top: 3%;
+  }
+
+ .gv{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+ } 
+
+ .g{
+    text-align: center;
+    font-size: larger;
+    align-items: center;
+ }
+
+ button {
+    background-color: red;
+    color: white;
+    width: 9%;
+    height: 35px;
+    border-radius: 5px;
+    
+ }
+
+ 
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img{
+    width: 85%;
+    height: 350px;
+    border-radius: 50px;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+
+
+
+
+.whatsapp-logo{
+    width: 50px;
+    height: 50px;
+    background-image: url(image/watsapp-logo.jpg);
+    background-position: center;
+    background-size: 60px;
+    border-radius: 50px;
+    margin-top: 5%;
+}
+
+.whatsapp-logo:hover{
+    transform: scale(1.1);
+}
+
+.instagram-logo{
+    width: 50px;
+    height: 50px;
+    background-image: url(image/instagram-logo.jpg);
+    background-position: center;
+    background-size: 60px;
+    border-radius: 50px;
+    margin-top: 5%;
+}
+
+.instagram-logo:hover{
+    transform: scale(1.1);
+}
+
+.str{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    
+    
+}
+
+
+
+
+
+
